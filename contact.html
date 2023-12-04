@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parth Saxena - Webdeveloper, Programmer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar sidebarGo">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="intro.html"> Intro</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="main">
+        <div class="hamburger">
+          <img class="ham" src="images/icons8-menu-26.png" alt="" width="23" />
+          <img
+            class="cross"
+            src="images/icons8-circled-x-50.png"
+            alt=""
+            width="30"
+          />
+        </div>
+        <div class="contactform">
+          <h1>Contact me for work and General Enquiries</h1>
+          <form>
+            <div class="mb-3">
+              <label for="ClientName" class="form-label">Name</label>
+              <input
+                type="Name"
+                class="form-control"
+                id="ClientName"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text"></div>
+            </div>
+            <div class="mb-3">
+              <label for="ClientEmail" class="form-label">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="ClientEmail"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text">
+                We'll never share your email & phone no. with anyone else.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="ClientPhone" class="form-label">Phone No.</label>
+              <input type="Phone" class="form-control" id="ClientPhone" />
+            </div>
+            <button type="submit" class="btn btn-sm">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
